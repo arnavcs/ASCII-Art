@@ -4,10 +4,12 @@ import image
 
 def main ():
   myImage = image.Image()
-
-  myImage.loadText("word.txt")
-  myImage.rescaleImage(size="large")
-  myImage.toBraillePx(toFile=False, inverse=True)
+  myImage.load("./cat.png")
+  myImage.resize(200, 200)
+  myImage.toGrayscale()
+  myImage.toBinary(100)
+  print(myImage.asBraille())
+  myImage.show()
 
 if (__name__ == "__main__"):
   main()
