@@ -1,6 +1,6 @@
 # ASCII-Art
 
-A project that takes images, and converts it into ASCII art. 
+A project that takes images, and converts it into ASCII art. It does this by first making the image grayscale, and then splitting the image into 3 by 2 chunks which are then represented with braille ASCII characters.
 
 ## Running
 
