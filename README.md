@@ -1,2 +1,2 @@
 # ASCII-Art
-An project that takes images or text, and converts it into ASCII art
+A project that takes images, and converts it into ASCII art
